@@ -73,7 +73,7 @@ html {
 .marquee {
     color: rgb(14, 5, 92);
     text-shadow: 1px 0 0 black;
-    font-size: 20px;
+    font-size: 1.5vw;
     white-space: nowrap;
     animation: '';
     -webkit-animation: rightThenLeft 4s linear;
@@ -93,14 +93,13 @@ html {
     #history {
         display: flex;
         align-items: center;
-        resized image 
-        background : url(../images/background.jpg) center center no-repeat;
+        background : url(../images/background\ mobile.jpg) center center no-repeat;
         background-repeat: no-repeat;
         background-size: cover;
     }
 } 
 
- Small devices (portrait tablets and large phones, 600px and up) 
+ /* Small devices (portrait tablets and large phones, 600px and up) 
 @media only screen and (min-width: 600px) {
     #history {
         display: flex;

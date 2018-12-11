@@ -77,9 +77,10 @@ html {
 #history {
     display: flex;
     align-items: center;
-    background : url(../images/history.jpg) center center no-repeat;
+    background : url(../images/background.jpg) center center no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
+
 }
 
 #history div {

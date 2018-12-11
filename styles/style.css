@@ -5,8 +5,9 @@ h1 {
     margin-top: 0;
     margin-bottom: -1%;
     background: -webkit-linear-gradient(#eee, rgb(39, 38, 38));
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;   
+    background-clip: text;
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;   
 }
 
 header {
@@ -16,7 +17,15 @@ header {
     width: 100%;
     z-index: 5;
     background-color: black;
-    
+}
+
+nav {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 15%;
+    width: 100%;
+    z-index: 5;
+    background-color: black;  
 }
 
 .logo {
@@ -49,13 +58,9 @@ nav a:hover {
     text-decoration: none;
 }
 
-
-
 html {
     overflow-x: hidden;
 }
-
-
 
 .wrapper {
     position: relative; 
@@ -80,8 +85,50 @@ html {
     background : url(../images/background.jpg) center center no-repeat;
     background-repeat: no-repeat;
     background-size: cover;
-
 }
+
+/* Usage of Media queries-redundant
+ Extra small devices (phones, 600px and down) 
+@media only screen and (max-width: 600px) {
+    #history {
+        display: flex;
+        align-items: center;
+        resized image 
+        background : url(../images/background.jpg) center center no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+} 
+
+ Small devices (portrait tablets and large phones, 600px and up) 
+@media only screen and (min-width: 600px) {
+    #history {
+        display: flex;
+        align-items: center;
+        resized image 
+        background : url(../images/background.jpg) center center no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+} 
+
+ Medium devices (landscape tablets, 768px and up) 
+@media only screen and (min-width: 768px) {
+    #history {
+        display: flex;
+        align-items: center;
+        resized image 
+        background : url(../images/background.jpg) center center no-repeat;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+} 
+
+ Large devices (laptops/desktops, 992px and up) 
+@media only screen and (min-width: 992px) {...} 
+
+ Extra large devices (large laptops and desktops, 1200px and up) 
+@media only screen and (min-width: 1200px) {...} */
 
 #history div {
     flex: 33%;
@@ -149,33 +196,34 @@ footer {
 
 .fa:hover {
     opacity: 0.7;
-    }
+}
     
-    .fa-facebook {
+.fa-facebook {
+color: #3B5998;
+}
+    
+.fa-twitter {
     color: #3B5998;
-    }
-    
-    .fa-twitter {
-        color: #3B5998;
-    }
-    .fa-linkedin {
-        color: #3B5998;
-    }
-    .fa-youtube {
+}
 
+.fa-linkedin {
+    color: #3B5998;
+}
+
+.fa-youtube {
     color: red;
-    }
-    .fa-instagram {
-   
-    color: yellow;
-    }
+}
+
+.fa-instagram {
+   color: yellow;
+}
     
 
-    footer ul li:nth-child(6){
-        float: right;
-        color: white;
+footer ul li:nth-child(6){
+    float: right;
+    color: white;
     font-size: 1vw;
-    }
+}
 
 .lead {
     font-family: 'Chenla';

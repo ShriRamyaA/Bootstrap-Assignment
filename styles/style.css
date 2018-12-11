@@ -1,0 +1,203 @@
+h1 {
+    text-align: center;
+    font-family: 'Cinzel Decorative';
+    font-size: 7.8vw;
+    margin-top: 0;
+    margin-bottom: -1%;
+    background: -webkit-linear-gradient(#eee, rgb(39, 38, 38));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;   
+}
+
+header {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 5;
+    background-color: black;
+    
+}
+
+.logo {
+    position: absolute;
+    top: 1%;
+    float: left;
+    width: 7%;
+    height: 80%;
+}
+
+nav {
+    overflow: hidden;
+    text-align: center;
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(39, 37, 37));
+    padding-top: 1%;
+
+}
+
+nav a {
+    text-transform: uppercase;
+    margin: 3%;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+nav a:hover {
+    color: darkorange;
+    text-decoration: none;
+}
+
+
+
+html {
+    overflow-x: hidden;
+}
+
+
+
+.wrapper {
+    position: relative; 
+    max-width: 96%;
+    text-align: left;
+    margin-left: 3%;
+    margin-top: 2%;
+}
+
+.marquee {
+    color: rgb(14, 5, 92);
+    text-shadow: 1px 0 0 black;
+    font-size: 20px;
+    white-space: nowrap;
+    animation: '';
+    -webkit-animation: rightThenLeft 4s linear;
+}
+
+#history {
+    display: flex;
+    align-items: center;
+    background : url(../images/history.jpg) center center no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#history div {
+    flex: 33%;
+    text-align: justify;
+}
+
+.details {
+    padding: 5%;
+}
+
+.details h2, .container h2 {
+    font-family: 'Cinzel Decorative';
+    font-size: 24px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.details p {
+    padding: 5%;
+    background-color: #eee;
+    border-color: black;
+    border-radius: 10%;
+    font-family: 'Chenla';
+    font-size: 16px;  
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+.card-title {
+    font-family: 'Cinzel Decorative';
+    font-size: 18px;
+    text-align: center;
+}
+
+#carousel img {
+    max-width: 80%;
+    position: relative;
+    left: 10%;
+    height: 500px;
+}
+
+.card img {
+    max-width: 100%;
+    height: 250px;
+}
+
+
+.card-text {
+    padding: 5%;
+    font-family: 'Chenla';
+    font-size: 16px;  
+}
+
+footer li {
+    display: inline;
+    padding: 0.5%;
+}
+
+
+footer {
+    background-color: black;
+}
+
+.fa:hover {
+    opacity: 0.7;
+    }
+    
+    .fa-facebook {
+    color: #3B5998;
+    }
+    
+    .fa-twitter {
+        color: #3B5998;
+    }
+    .fa-linkedin {
+        color: #3B5998;
+    }
+    .fa-youtube {
+
+    color: red;
+    }
+    .fa-instagram {
+   
+    color: yellow;
+    }
+    
+
+    footer ul li:nth-child(6){
+        float: right;
+        color: white;
+    font-size: 1vw;
+    }
+
+.lead {
+    font-family: 'Chenla';
+    font-size: 1.5vw;
+}
+
+#career{
+    display: flex;
+    align-items: center;
+    background : url(../images/career.jpg) center center no-repeat;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#career div {
+    flex: 33%;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+

@@ -1,13 +1,5 @@
-h1 {
-    text-align: center;
-    font-family: 'Cinzel Decorative';
-    font-size: 7.8vw;
-    margin-top: 0;
-    margin-bottom: -1%;
-    background: -webkit-linear-gradient(#eee, rgb(39, 38, 38));
-    background-clip: text;
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;   
+header {
+    height: 1%;
 }
 
 header {
@@ -16,152 +8,129 @@ header {
     top: 0;
     width: 100%;
     z-index: 5;
-    background-color: black;
 }
 
-nav {
-    position: -webkit-sticky;
-    position: sticky;
-    top: 15%;
-    width: 100%;
-    z-index: 5;
-    background-color: black;  
+header h1 {
+    font-family: 'Cinzel Decorative';
+    font-size: 5vw;
+    margin-top: -4vw;
+    text-transform: uppercase;
+    text-align: right;
 }
 
 .logo {
     position: absolute;
     top: 1%;
-    float: left;
-    width: 7%;
-    height: 80%;
+    width: 10vw;
+    height: 8vw;
 }
 
-nav {
-    overflow: hidden;
-    text-align: center;
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgb(39, 37, 37));
-    padding-top: 1%;
-
+#nav-main {
+    position: fixed;
+    top: 10vw;
+    width: 100%;
+    background-color: black;
+    height: 5vw;
+    z-index: 5;
 }
 
 nav a {
-    text-transform: uppercase;
-    margin: 3%;
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: none;
     font-size: 1.5vw;
+    margin: 1vw;
 }
 
-nav a:hover {
-    color: darkorange;
-    text-decoration: none;
+article {
+    background-image: url(../images/background.jpg);
+    
 }
 
-html {
-    overflow-x: hidden;
-}
-
-.wrapper {
-    position: relative; 
-    max-width: 96%;
-    text-align: left;
-    margin-left: 3%;
-    margin-top: 2%;
-}
-
-.marquee {
-    color: rgb(14, 5, 92);
-    text-shadow: 1px 0 0 black;
-    font-size: 1.5vw;
-    white-space: nowrap;
-    animation: '';
-    -webkit-animation: rightThenLeft 4s linear;
-}
-
-#history {
-    display: flex;
-    align-items: center;
-    background : url(../images/background.jpg) center center no-repeat;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* Usage of Media queries-redundant
- Extra small devices (phones, 600px and down) 
-@media only screen and (max-width: 600px) {
-    #history {
-        display: flex;
-        align-items: center;
-        background : url(../images/background\ mobile.jpg) center center no-repeat;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-} 
-
- /* Small devices (portrait tablets and large phones, 600px and up) 
-@media only screen and (min-width: 600px) {
-    #history {
-        display: flex;
-        align-items: center;
-        resized image 
-        background : url(../images/background.jpg) center center no-repeat;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-} 
-
- Medium devices (landscape tablets, 768px and up) 
-@media only screen and (min-width: 768px) {
-    #history {
-        display: flex;
-        align-items: center;
-        resized image 
-        background : url(../images/background.jpg) center center no-repeat;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
-} 
-
- Large devices (laptops/desktops, 992px and up) 
-@media only screen and (min-width: 992px) {...} 
-
- Extra large devices (large laptops and desktops, 1200px and up) 
-@media only screen and (min-width: 1200px) {...} */
-
-#history div {
-    flex: 33%;
-    text-align: justify;
-}
-
-.details {
-    padding: 5%;
-}
-
-.details h2, .container h2 {
-    font-family: 'Cinzel Decorative';
-    font-size: 24px;
-    text-align: center;
-    text-decoration: underline;
-}
-
-.details p {
-    padding: 5%;
-    background-color: #eee;
-    border-color: black;
-    border-radius: 10%;
+#details {
     font-family: 'Chenla';
-    font-size: 16px;  
+    font-size: 16px;
+    background-color: azure;
+    background-size: cover;
+    text-align: justify;
+    padding: 3vw;
+    margin: 3vw;
+    border-radius: 1%;
 }
 
-.section-content {
-    padding: 5rem 0;
-}
-
-.card-title {
+#history h1 {
     font-family: 'Cinzel Decorative';
-    font-size: 18px;
+    font-size: 3vw;
+    text-transform: uppercase;
+}
+
+#gridUse {
+    margin: 4vw;
+}
+
+.card-text {
+    font-family: 'Chenla';
+    font-size: 16px;
+}
+
+footer span, footer span a, footer p {
+    color: rgb(127, 129, 131);
+}
+
+.fa {
+    padding: 1vw;
+    font-size: 2vw;
+    width: 7%;
     text-align: center;
+    text-decoration: none;
+    margin: 1vw 3.1vw;
+    border-radius: 10%;
+}
+  
+.fa:hover {
+      opacity: 0.7;
+}
+  
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+  
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+  
+.fa-google {
+    background: #dd4b39;
+    color: white;
+}
+  
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+  
+.fa-instagram {
+    background: #fffb00;
+    color: white;
+}
+
+footer {
+    background-color: black;
+    width: 100%;
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    color: chartreuse;
+    text-decoration: none;
 }
 
 #carousel img {
@@ -171,81 +140,28 @@ html {
     height: 500px;
 }
 
-.card img {
-    max-width: 100%;
-    height: 250px;
-}
-
-
-.card-text {
-    padding: 5%;
-    font-family: 'Chenla';
-    font-size: 16px;  
-}
-
-footer li {
-    display: inline;
-    padding: 0.5%;
-}
-
-
-footer {
+#carousel {
     background-color: black;
+    margin: 5%;
 }
 
-.fa:hover {
-    opacity: 0.7;
-}
-    
-.fa-facebook {
-color: #3B5998;
-}
-    
-.fa-twitter {
-    color: #3B5998;
+#map {
+    height: 400px;  /* The height is 400 pixels */
+    width: 100%;  /* The width is the width of the web page */
+   }
+map {
+    padding: 10vw;
 }
 
-.fa-linkedin {
-    color: #3B5998;
-}
-
-.fa-youtube {
-    color: red;
-}
-
-.fa-instagram {
-   color: yellow;
-}
-    
-
-footer ul li:nth-child(6){
-    float: right;
+#address {
+    padding: 5vw;
+    background-color: black;
     color: white;
-    font-size: 1vw;
+    font-family: 'Chelna';
+    font-size: 16px;
 }
 
-.lead {
-    font-family: 'Chenla';
-    font-size: 1.5vw;
+map p {
+    font-family: 'Cinzel Decorative';
+    font-size: 2vw;
 }
-
-#career{
-    display: flex;
-    align-items: center;
-    background : url(../images/career.jpg) center center no-repeat;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-#career div {
-    flex: 33%;
-    text-align: justify;
-}
-
-
-
-
-
-
-
-

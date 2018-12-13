@@ -39,6 +39,7 @@ nav a {
     margin: 1vw;
 }
 
+
 article {
     background-image: url(../images/background.jpg);
     
@@ -71,6 +72,7 @@ article {
 }
 
 footer span, footer span a, footer p {
+    font-size: 1.3vw;
     color: rgb(127, 129, 131);
 }
 
@@ -164,4 +166,9 @@ map {
 map p {
     font-family: 'Cinzel Decorative';
     font-size: 2vw;
+}
+
+footer img {
+    width: 1vw;
+    height: 1vw;
 }
